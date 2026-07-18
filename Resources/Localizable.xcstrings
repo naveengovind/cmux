@@ -34123,6 +34123,131 @@
         }
       }
     },
+    "cli.help.tmux": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nاعكس جلسات tmux على هذا الجهاز داخل الشريط الجانبي للنافذة الحالية عبر وضع تحكم tmux‏ (tmux -CC) — دون استخدام SSH. تصبح كل جلسة مساحة عمل، وكل نافذة علامة تبويب، وكل نافذة متعددة الأجزاء تقسيمًا أصليًا. تتزامن التغييرات في الاتجاهين: التقسيمات والإغلاقات وإعادة التسمية والنوافذ الجديدة في cmux تنتقل إلى tmux، وتظهر تغييرات جانب tmux (بما فيها القادمة من عميل tmux آخر متصل) في cmux. يتطلب تفعيل الإصدار التجريبي \"Remote tmux\".\n\nFlags:\n  --no-focus          عدم تحديد مساحة العمل المعكوسة أو تنشيط نافذتها\n  --new-window        فتح الانعكاس في نافذة جديدة مخصصة\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nPreslikava tmux sesije ove mašine u bočnu traku trenutnog prozora putem tmux kontrolnog režima (tmux -CC) — bez SSH-a. Svaka sesija postaje radni prostor, svaki prozor kartica, a prozor s više okana izvorna podjela. Promjene se sinhroniziraju u oba smjera: podjele, zatvaranja, preimenovanja i novi prozori napravljeni u cmux-u prenose se u tmux, a promjene s tmux strane (uključujući one iz drugog povezanog tmux klijenta) pojavljuju se u cmux-u. Potrebno je uključiti beta opciju \"Remote tmux\".\n\nFlags:\n  --no-focus          ne biraj preslikani radni prostor niti aktiviraj prozor\n  --new-window        otvori preslikavanje u zasebnom novom prozoru\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nSpejl denne maskines tmux-sessioner i det aktuelle vindues sidebjælke via tmux-kontroltilstand (tmux -CC) — uden SSH. Hver session bliver et arbejdsområde, hvert vindue en fane og hvert vindue med flere ruder en integreret opdeling. Ændringer synkroniseres begge veje: opdelinger, lukninger, omdøbninger og nye vinduer i cmux overføres til tmux, og ændringer på tmux-siden (også fra en anden tilsluttet tmux-klient) vises i cmux. Kræver at betaindstillingen \"Remote tmux\" er slået til.\n\nFlags:\n  --no-focus          vælg ikke det spejlede arbejdsområde eller aktivér vinduet\n  --new-window        åbn spejlingen i et dedikeret nyt vindue\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nSpiegelt die tmux-Sitzungen dieses Rechners per tmux-Steuermodus (tmux -CC) in die Seitenleiste des aktuellen Fensters — ganz ohne SSH. Jede Sitzung wird zu einem Arbeitsbereich, jedes Fenster zu einem Tab und jedes Fenster mit mehreren Bereichen zu einer nativen Aufteilung. Änderungen werden in beide Richtungen synchronisiert: In cmux erstellte Aufteilungen, Schließungen, Umbenennungen und neue Fenster werden an tmux übertragen, und Änderungen auf tmux-Seite (auch von einem anderen verbundenen tmux-Client) erscheinen in cmux. Erfordert die Beta-Einstellung „Remote tmux“.\n\nFlags:\n  --no-focus          Gespiegelten Arbeitsbereich nicht auswählen und Fenster nicht fokussieren\n  --new-window        Spiegelung in einem eigenen neuen Fenster öffnen\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nMirror this machine's tmux sessions into the current window's sidebar via\ntmux control mode (tmux -CC) — no SSH involved. Each session becomes a\nworkspace, each window a tab, and each multi-pane window a native split.\nChanges sync both ways: splits, closes, renames, and new windows made in\ncmux propagate to tmux, and tmux-side changes (including from another\nattached tmux client) appear in cmux. Requires the \"Remote tmux\" beta\nsetting.\n\nFlags:\n  --no-focus          Do not select the mirror workspace or focus its window\n  --new-window        Open the mirror in a dedicated new window\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nRefleja las sesiones de tmux de esta máquina en la barra lateral de la ventana actual mediante el modo de control de tmux (tmux -CC), sin SSH. Cada sesión se convierte en un espacio de trabajo, cada ventana en una pestaña y cada ventana con varios paneles en una división nativa. Los cambios se sincronizan en ambos sentidos: las divisiones, cierres, renombrados y ventanas nuevas hechas en cmux se propagan a tmux, y los cambios del lado de tmux (incluidos los de otro cliente tmux conectado) aparecen en cmux. Requiere la opción beta \"Remote tmux\".\n\nFlags:\n  --no-focus          No seleccionar el espacio de trabajo reflejado ni enfocar su ventana\n  --new-window        Abrir el reflejo en una ventana nueva dedicada\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nReflète les sessions tmux de cette machine dans la barre latérale de la fenêtre actuelle via le mode contrôle de tmux (tmux -CC), sans SSH. Chaque session devient un espace de travail, chaque fenêtre un onglet et chaque fenêtre multi-panneaux une division native. Les modifications sont synchronisées dans les deux sens : les divisions, fermetures, renommages et nouvelles fenêtres effectués dans cmux se propagent à tmux, et les changements côté tmux (y compris depuis un autre client tmux attaché) apparaissent dans cmux. Nécessite le réglage bêta « Remote tmux ».\n\nFlags:\n  --no-focus          Ne pas sélectionner l'espace de travail miroir ni activer sa fenêtre\n  --new-window        Ouvrir le miroir dans une nouvelle fenêtre dédiée\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nRispecchia le sessioni tmux di questa macchina nella barra laterale della finestra corrente tramite la modalità di controllo di tmux (tmux -CC), senza SSH. Ogni sessione diventa uno spazio di lavoro, ogni finestra una scheda e ogni finestra multi-riquadro una divisione nativa. Le modifiche si sincronizzano in entrambe le direzioni: divisioni, chiusure, rinomine e nuove finestre fatte in cmux si propagano a tmux, e le modifiche lato tmux (anche da un altro client tmux collegato) compaiono in cmux. Richiede l'impostazione beta \"Remote tmux\".\n\nFlags:\n  --no-focus          Non selezionare lo spazio di lavoro rispecchiato né attivare la sua finestra\n  --new-window        Apri il mirror in una nuova finestra dedicata\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nこのマシンの tmux セッションを、tmux コントロールモード（tmux -CC）で現在のウィンドウのサイドバーにミラーリングします。SSH は使用しません。各セッションはワークスペースに、各ウィンドウはタブに、複数ペインのウィンドウはネイティブ分割になります。変更は双方向に同期されます。cmux での分割・クローズ・名前変更・新規ウィンドウは tmux に反映され、tmux 側の変更（別の tmux クライアントからの変更を含む）も cmux に表示されます。ベータ設定「Remote tmux」が必要です。\n\nFlags:\n  --no-focus          ミラーのワークスペースを選択せず、ウィンドウにもフォーカスしない\n  --new-window        専用の新しいウィンドウでミラーを開く\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nឆ្លុះសម័យ tmux របស់ម៉ាស៊ីននេះទៅក្នុងរបារចំហៀងនៃបង្អួចបច្ចុប្បន្ន តាមរយៈរបៀបបញ្ជា tmux (tmux -CC) — ដោយមិនប្រើ SSH។ សម័យនីមួយៗក្លាយជាកន្លែងធ្វើការ បង្អួចនីមួយៗក្លាយជាផ្ទាំង ហើយបង្អួចដែលមានផ្ទាំងច្រើនក្លាយជាការបំបែកដើម។ ការផ្លាស់ប្ដូរធ្វើសមកាលកម្មទាំងពីរទិស៖ ការបំបែក ការបិទ ការប្ដូរឈ្មោះ និងបង្អួចថ្មីដែលធ្វើក្នុង cmux ត្រូវបានបញ្ជូនទៅ tmux ហើយការផ្លាស់ប្ដូរខាង tmux (រួមទាំងពីម៉ាស៊ីនភ្ញៀវ tmux ផ្សេងទៀតដែលបានភ្ជាប់) បង្ហាញក្នុង cmux។ ត្រូវការការកំណត់បេតា \"Remote tmux\"។\n\nFlags:\n  --no-focus          កុំជ្រើសរើសកន្លែងធ្វើការដែលឆ្លុះ ហើយកុំផ្ដោតបង្អួចរបស់វា\n  --new-window        បើកការឆ្លុះក្នុងបង្អួចថ្មីដាច់ដោយឡែក\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\n이 컴퓨터의 tmux 세션을 tmux 컨트롤 모드(tmux -CC)로 현재 창의 사이드바에 미러링합니다. SSH를 사용하지 않습니다. 각 세션은 작업 공간이 되고, 각 창은 탭이 되며, 여러 패널이 있는 창은 네이티브 분할이 됩니다. 변경 사항은 양방향으로 동기화됩니다. cmux에서 수행한 분할·닫기·이름 변경·새 창은 tmux로 전파되고, tmux 쪽 변경 사항(연결된 다른 tmux 클라이언트의 변경 포함)은 cmux에 나타납니다. \"Remote tmux\" 베타 설정이 필요합니다.\n\nFlags:\n  --no-focus          미러 작업 공간을 선택하지 않고 창에 포커스하지 않음\n  --new-window        전용 새 창에서 미러 열기\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nSpeil denne maskinens tmux-økter i sidefeltet til det gjeldende vinduet via tmux-kontrollmodus (tmux -CC) — uten SSH. Hver økt blir et arbeidsområde, hvert vindu en fane og hvert vindu med flere ruter en integrert deling. Endringer synkroniseres begge veier: delinger, lukkinger, navneendringer og nye vinduer i cmux overføres til tmux, og endringer på tmux-siden (også fra en annen tilkoblet tmux-klient) vises i cmux. Krever at betainnstillingen \"Remote tmux\" er slått på.\n\nFlags:\n  --no-focus          ikke velg det speilede arbeidsområdet eller fokuser vinduet\n  --new-window        åpne speilingen i et eget nytt vindu\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nOdzwierciedla sesje tmux tej maszyny w pasku bocznym bieżącego okna przez tryb sterowania tmux (tmux -CC) — bez SSH. Każda sesja staje się przestrzenią roboczą, każde okno kartą, a okno z wieloma panelami natywnym podziałem. Zmiany synchronizują się w obie strony: podziały, zamknięcia, zmiany nazw i nowe okna wykonane w cmux trafiają do tmux, a zmiany po stronie tmux (także z innego podłączonego klienta tmux) pojawiają się w cmux. Wymaga ustawienia beta „Remote tmux”.\n\nFlags:\n  --no-focus          Nie wybieraj odzwierciedlonej przestrzeni roboczej ani nie aktywuj jej okna\n  --new-window        Otwórz lustro w osobnym nowym oknie\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nEspelha as sessões tmux desta máquina na barra lateral da janela atual pelo modo de controle do tmux (tmux -CC), sem SSH. Cada sessão vira um espaço de trabalho, cada janela uma aba e cada janela com vários painéis uma divisão nativa. As mudanças sincronizam nos dois sentidos: divisões, fechamentos, renomeações e novas janelas feitas no cmux propagam para o tmux, e mudanças do lado do tmux (inclusive de outro cliente tmux conectado) aparecem no cmux. Requer a configuração beta \"Remote tmux\".\n\nFlags:\n  --no-focus          Não selecionar o espaço de trabalho espelhado nem focar sua janela\n  --new-window        Abrir o espelho em uma nova janela dedicada\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nЗеркалирует tmux-сессии этой машины в боковую панель текущего окна через режим управления tmux (tmux -CC) — без SSH. Каждая сессия становится рабочим пространством, каждое окно — вкладкой, а окно с несколькими панелями — нативным разделением. Изменения синхронизируются в обе стороны: разделения, закрытия, переименования и новые окна из cmux передаются в tmux, а изменения со стороны tmux (в том числе из другого подключённого клиента tmux) появляются в cmux. Требуется бета-настройка «Remote tmux».\n\nFlags:\n  --no-focus          Не выбирать зеркальное рабочее пространство и не фокусировать его окно\n  --new-window        Открыть зеркало в отдельном новом окне\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nสะท้อนเซสชัน tmux ของเครื่องนี้ไปยังแถบด้านข้างของหน้าต่างปัจจุบันผ่านโหมดควบคุมของ tmux (tmux -CC) โดยไม่ใช้ SSH แต่ละเซสชันจะกลายเป็นพื้นที่ทำงาน แต่ละหน้าต่างเป็นแท็บ และหน้าต่างที่มีหลายบานหน้าต่างเป็นการแบ่งแบบเนทีฟ การเปลี่ยนแปลงซิงก์สองทาง: การแบ่ง การปิด การเปลี่ยนชื่อ และหน้าต่างใหม่ที่ทำใน cmux จะส่งต่อไปยัง tmux และการเปลี่ยนแปลงฝั่ง tmux (รวมถึงจากไคลเอนต์ tmux อื่นที่เชื่อมต่ออยู่) จะปรากฏใน cmux ต้องเปิดการตั้งค่าเบต้า \"Remote tmux\"\n\nFlags:\n  --no-focus          ไม่เลือกพื้นที่ทำงานที่สะท้อนและไม่โฟกัสหน้าต่าง\n  --new-window        เปิดมิเรอร์ในหน้าต่างใหม่โดยเฉพาะ\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nBu makinenin tmux oturumlarını tmux kontrol modu (tmux -CC) üzerinden geçerli pencerenin kenar çubuğuna yansıtır — SSH kullanılmaz. Her oturum bir çalışma alanına, her pencere bir sekmeye ve çok bölmeli her pencere yerel bir bölmeye dönüşür. Değişiklikler iki yönlü eşitlenir: cmux'ta yapılan bölmeler, kapatmalar, yeniden adlandırmalar ve yeni pencereler tmux'a aktarılır; tmux tarafındaki değişiklikler (bağlı başka bir tmux istemcisinden gelenler dahil) cmux'ta görünür. \"Remote tmux\" beta ayarı gerekir.\n\nFlags:\n  --no-focus          Yansıtılan çalışma alanını seçme ve penceresine odaklanma\n  --new-window        Yansımayı ayrı yeni bir pencerede aç\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\nВіддзеркалює tmux-сесії цієї машини в бічну панель поточного вікна через режим керування tmux (tmux -CC) — без SSH. Кожна сесія стає робочим простором, кожне вікно — вкладкою, а вікно з кількома панелями — нативним поділом. Зміни синхронізуються в обох напрямках: поділи, закриття, перейменування та нові вікна з cmux передаються в tmux, а зміни з боку tmux (зокрема з іншого під'єднаного клієнта tmux) з'являються в cmux. Потрібне бета-налаштування «Remote tmux».\n\nFlags:\n  --no-focus          Не вибирати віддзеркалений робочий простір і не фокусувати його вікно\n  --new-window        Відкрити дзеркало в окремому новому вікні\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\n通过 tmux 控制模式（tmux -CC）将本机的 tmux 会话镜像到当前窗口的侧边栏——无需 SSH。每个会话成为一个工作区，每个窗口成为一个标签页，多窗格窗口成为原生分屏。更改双向同步：在 cmux 中进行的分屏、关闭、重命名和新建窗口会传播到 tmux，tmux 侧的更改（包括来自其他已连接 tmux 客户端的更改）也会出现在 cmux 中。需要启用“Remote tmux”测试版设置。\n\nFlags:\n  --no-focus          不选择镜像工作区，也不聚焦其窗口\n  --new-window        在专用新窗口中打开镜像\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux tmux [--no-focus] [--new-window]\n\n透過 tmux 控制模式（tmux -CC）將本機的 tmux 工作階段鏡像到目前視窗的側邊欄——無需 SSH。每個工作階段成為一個工作區，每個視窗成為一個分頁，多窗格視窗成為原生分割。變更會雙向同步：在 cmux 中進行的分割、關閉、重新命名與新視窗會傳播到 tmux，tmux 端的變更（包括來自其他已連線 tmux 用戶端的變更）也會顯示在 cmux 中。需要啟用「Remote tmux」測試版設定。\n\nFlags:\n  --no-focus          不選取鏡像工作區，也不聚焦其視窗\n  --new-window        在專用的新視窗開啟鏡像\n\nExample:\n  cmux tmux\n  cmux tmux --new-window"
+          }
+        }
+      }
+    },
     "cli.hooks.antigravity.aborted": {
       "extractionState": "manual",
       "localizations": {
