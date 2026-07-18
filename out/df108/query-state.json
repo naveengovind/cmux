@@ -1,0 +1,6 @@
+{
+  "element_count": 545,
+  "pid": 89558,
+  "tree_markdown": "selector:(null)]]\n  - [46] AXTextField = \">Open Diff Viewer\" [id=CommandPaletteSearchField actions=[showmenu,confirm]]\n  - [47] AXOpaqueProviderGroup [actions=[scrolltotop,scrolltobottom]]\n    - [48] AXButton = \"palette.openDiffViewer\" (Open Diff Viewer) [id=CommandPaletteResultRow.0 actions=[scrolltovisible,press]]\n  - [541] AXTextField = \">Open Diff Viewer\" [id=CommandPaletteSearchField actions=[showmenu,confirm]]\n  - [542] AXOpaqueProviderGroup [actions=[scrolltotop,scrolltobottom]]\n    - [543] AXButton = \"palette.openDiffViewer\" (Open Diff Viewer) [id=CommandPaletteResultRow.0 actions=[scrolltovisible,press]]\n",
+  "window_id": 128408
+}
